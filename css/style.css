@@ -4,3 +4,17 @@
 .parallax-container {
       height: 940px;
     }
+.tipo{
+  align-content: center;
+}
+
+.tipo{
+  width: 200%;
+  border-color: #e57373;
+  border: solid;
+}
+
+.clientes {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

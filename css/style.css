@@ -17,11 +17,33 @@ font-weight: bold;
 
 
 #preguntas h3{
-  font-size: 36px;
+  font-size: 38px;
 }
 
-#preguntas {
+
+.container{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 35px;
+}
+
+#preguntas .container{
   background-color: #f1f1f1;
+}
+
+#info .container{
+  background-color: white;
+}
+
+#razones .container{
+  background-color: white;
+}
+
+
+#ricardo .container{
+  background-color: #f1f1f1;
+  padding-right: 80px;
+  text-align: justify;
 }
 
 
@@ -58,12 +80,6 @@ font-weight: bold;
   padding-bottom: 30px;
 }
 
-#info .container{
-  background-color: white;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 35px;
-}
 
 
 

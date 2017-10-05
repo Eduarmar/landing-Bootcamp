@@ -39,11 +39,7 @@ font-weight: bold;
 
 
 .tipo{
-  align-content: center;
-}
-
-.tipo{
-  width: 200%;
+  width: auto;
   border-color: #e57373;
   border: solid;
 }

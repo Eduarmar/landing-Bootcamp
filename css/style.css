@@ -5,11 +5,11 @@ body{
 
 
 .header{
-  /*height: 700px;
-  background-image: url(../images/header2.jpg);
+  
+  background-image: url(../images/Bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;*/
+  background-size: cover;
 }
 
 #preguntas h3{
@@ -42,6 +42,9 @@ body{
   text-align: justify;
 }
 
+#info .row p{
+  font-size: 18px;
+}
 
 .collection{
   font-size: 24px;

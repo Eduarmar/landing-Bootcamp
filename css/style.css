@@ -39,16 +39,19 @@ body{
 }
 
 #info2 .container{
-  background-color: white;
+  background-color: #e8e8e8;
 }
 
 #razones .container{
   background-color: white;
 }
 
+#video .container{
+  background-color: #e8e8e8;
+}
 
 #ricardo .container{
-  background-color: #e8e8e8;
+  background-color: white;
   padding-right: 80px;
 
 }

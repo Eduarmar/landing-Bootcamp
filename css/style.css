@@ -4,33 +4,52 @@ body{
 }
 
 
-#header .row {
-padding-top: 100px;
+.header{
+  /*height: 700px;
+  background-image: url(../images/header2.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
 }
-
-#header h2 {
-padding-bottom: 60px;
-font-size: 60px;
-font-weight: bold;
-
-}
-
 
 #preguntas h3{
-  font-size: 36px;
+  font-size: 38px;
 }
 
-#preguntas {
-  background-color: #f1f1f1;
+
+.container{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 35px;
+}
+
+#preguntas .container{
+  background-color: #e8e8e8;
+}
+
+#info .container{
+  background-color: white;
+}
+
+#razones .container{
+  background-color: white;
+}
+
+
+#ricardo .container{
+  background-color: #e8e8e8;
+  padding-right: 80px;
+  text-align: justify;
 }
 
 
 .collection{
-  font-size: 18px;
+  font-size: 24px;
+
 }
 
 .parallax-container {
-      height: 700px;
+
 
       background-position: center center;
       background-repeat: no-repeat;
@@ -39,7 +58,7 @@ font-weight: bold;
 
 
 .tipo{
-  width: auto;
+
   border-color: #e57373;
   border: solid;
 }
@@ -54,12 +73,6 @@ font-weight: bold;
   padding-bottom: 30px;
 }
 
-#info .container{
-  background-color: white;
-  margin-top: auto;
-  margin-bottom: auto;
-  padding: 35px;
-}
 
 
 
@@ -74,7 +87,7 @@ font-weight: bold;
 #af-form-2064117333 .af-body a{color:#CCCCCC;text-decoration:underline;font-style:normal;font-weight:normal;}
 #af-form-2064117333 .af-body input.text, #af-form-2064117333 .af-body textarea{background-color:#FFFFFF;border-color:#D9D9D9;border-width:1px;border-style:solid;color:#000000;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Trebuchet MS, sans-serif;}
 #af-form-2064117333 .af-body input.text:focus, #af-form-2064117333 .af-body textarea:focus{background-color:#FFFAD6;border-color:#030303;border-width:1px;border-style:solid;}
-#af-form-2064117333 .af-body label.previewLabel{display:block;float:none;text-align:left;width:auto;color:#000000;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Helvetica, sans-serif;}
+#af-form-2064117333 .af-body label.previewLabel{display:block;float:none;text-align:left;width:auto;color:#FFFFFF;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Helvetica, sans-serif;}
 #af-form-2064117333 .af-body{padding-bottom:15px;padding-top:15px;background-repeat:no-repeat;background-position:inherit;background-image:none;color:#CCCCCC;font-size:11px;font-family:Verdana, sans-serif;}
 #af-form-2064117333 .af-header{padding-bottom:9px;padding-top:9px;padding-right:10px;padding-left:10px;background-color:transparent;background-repeat:no-repeat;background-position:inherit;background-image:none;border-width:1px;border-bottom-style:none;border-left-style:none;border-right-style:none;border-top-style:none;color:#CCCCCC;font-size:16px;font-family:Verdana, sans-serif;}
 #af-form-2064117333 .af-quirksMode .bodyText{padding-top:2px;padding-bottom:2px;}

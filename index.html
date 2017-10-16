@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
-
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <!--Let browser know website is optimized for mobile-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bootcamp + Clientes</title>
@@ -57,7 +57,7 @@
 
   <section id="preguntas">
     <div class="container z-depth-5">
-      <div class="row valign-wrapper">
+      <div class="row valign-wrapper 1">
         <div class="col l4 m6 push-m3 s10 push-s1 center">
           <img src="images/pregunta-1.png" width="80%" class="circle tipo" alt="">
         </div>
@@ -67,7 +67,7 @@
 
       </div>
 
-      <div class="row valign-wrapper">
+      <div class="row valign-wrapper 2">
         <div class="col l4 push-l8 m6 push-m3 s10 push-s1 center">
           <img src="images/pregunta-2.png" width="80%" class="circle tipo" alt="">
         </div>
@@ -77,7 +77,7 @@
 
       </div>
 
-      <div class="row valign-wrapper">
+      <div class="row valign-wrapper 3">
         <div class="col l4 m6 push-m3 s10 push-s1 center">
           <img src="images/pregunta-3.png" width="80%" class="circle tipo" alt="">
         </div>
@@ -104,12 +104,7 @@
               <li class="collection-item red lighten-4"><i class="small material-icons">check</i> La mejor forma de alcanzar tus sueños es a través de tu negocio propio</li>
               <li class="collection-item red lighten-5"><i class="small material-icons">check</i> Hay una gran diferencia entre un negocio rentable de uno que no lo es, decídete a construir un negocio rentable</li>
               <li class="collection-item red lighten-4"><i class="small material-icons">check</i> Aprenderás como conseguir <span style="color:red">+</span><span style="font-weight:bold"> Clientes</span> todos los días y de forma automática</li>
-<<<<<<< HEAD
               <li class="collection-item red lighten-5"><i class="small material-icons">check</i> Te enseñaré los secretos del marketing que están cambiando las empresas en Latinoamérica</li>
-=======
-              <li class="collection-item red lighten-5"><i class="small material-icons">check</i> Te enseñaré los secretos del marketing que están cambiando las empresas en Latinoamérica
-              </li>
->>>>>>> d5e1613d58708fd420d7fcbccda9bfcf0dcad902
               <li class="collection-item red lighten-4"><i class="small material-icons">check</i> Te revelaré casos de éxitos de empresas que han logrado incluso duplicar sus ventas aplicando los secretos que te revelaré</li>
             </ul>
           </div>
@@ -272,6 +267,34 @@
               })();
               -->
             </script>
+
+            <script>
+            window.sr = ScrollReveal();
+            sr.reveal('.header', {
+              duration: 2000,
+              origin:'bottom'});
+            sr.reveal('h2', {
+              duration: 2000,
+              origin:'right',
+              distance:'300px'});
+            sr.reveal('h3', {
+              duration: 2000,
+              origin:'left',
+              distance:'300px'});
+            sr.reveal('img', {
+              duration: 2000,
+              origin:'bottom',
+              distance:'300px'});
+            sr.reveal('p', {
+              duration: 2000,
+              origin:'top',
+              distance:'300px'});
+            sr.reveal('ul', {
+              duration: 2000,
+              origin:'left',
+              distance:'300px'});
+            </script>
+
 
             <!-- /AWeber Web Form Generator 3.0.1 -->
           </div>
